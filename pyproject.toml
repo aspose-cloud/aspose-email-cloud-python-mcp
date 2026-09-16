@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aspose-email-mcp"
+version = "0.2.0"
+description = "Real Codegen-generated MCP tools for Aspose Email Cloud's curated seed operation set (PRD Sprint 12, seed the remaining catalog)."
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "mcp>=2.0",
+    "aspose-storage-core-mcp==1.1.0",
+]
+
+[project.scripts]
+aspose-email-mcp = "aspose_email_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
