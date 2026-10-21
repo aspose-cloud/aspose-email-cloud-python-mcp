@@ -2,10 +2,6 @@
 
 Every release of this server, newest first. Release notes are on the [Releases page](https://github.com/aspose-cloud/aspose-email-cloud-python-mcp/releases); not every version has one, because some were released before this repository existed.
 
-## v1.4.0 (2026-10-21)
-
-- New tools added.
-
 ## v1.3.1 (2026-10-19)
 
 - Non-breaking change.
